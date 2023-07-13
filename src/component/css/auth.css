@@ -1,0 +1,40 @@
+ .authenticationinput{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 75%;
+    margin-top: 15px;
+}
+.authenticationinput label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+.authenticationinput input{
+    margin-top: 8px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+}
+#loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logincomponent{
+    flex-flow: row wrap;
+    margin-top: 40px;
+} 
+#loginbtn{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 20px;
+    /* float: right; */
+    cursor: pointer;
+    height: 25px;
+}   
+.btncover{
+    width: 75%;
+}
